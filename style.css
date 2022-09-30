@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #040814;
+}
+
+.top-logo img{
+    width: 180px;
+    height: 98px;
+}
+
+.header-logo img{
+    width: 80px;
+    height: 43px;
+}
+
+.hero{
+    background-image: url(./images/original\ \(1\).jfif);
+    height: 100vh;
+    width:100%;
+    top: 0;
+    padding: 60px;
+}
+
+.down{
+    width: 48px;
+    height: 48px;
+}
+
+.pro-sticky .nav-list{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.pre-sticky .nav-list{
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-right: 0;
+}
+
+header{
+    background-color: #040714; 
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.small-image{
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+a.small-primary{
+    background-color: #0063e5;
+    padding: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a.small-primary span{
+    color: white;
+    font-size: 18px;
+    font-family:  sans-serif;
+}
+
+a.small-secondary span{
+    color: white;
+    font-size: 18px;
+    font-family:  sans-serif;
+}
+
+a.small-secondary{
+    padding: 20px;
+    text-decoration: none;
+    margin-right: 50px;
+    
+}
+
+.content-container{
+    width: 630px;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 44px;
+}
+
+p.large{
+    color: #c0c0c0;
+    font-size: 20px;
+}
+
+span.fragman{
+    color: #c0c0c0;
+    font-size: 12px;
+}
+
+form.email-field{
+    display: flex;
+    align-items: center;
+}
+
+input.input-form{
+    width: 435px;
+    height: 50px;
+    background-color: #31343e;
+    border: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+button.form-button{
+    width: 185px;
+    height: 50px;
+    color: white;
+    background-color: #0063e5;
+    border: 1px solid transparent;
+    border-bottom-right-radius:5px;
+    border-top-right-radius: 5px;
+}
+
+input.input-form::placeholder{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.side{
+    background-image: url(./images/original\ \(3\).jfif);
+    height:100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #040814;
+    padding-bottom: 60px;
+}
+
+.side-container{
+    width: 640px;
+    height: auto;
+    font-family: sans-serif;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content:start;
+    padding: 100px;
+}
+
+.side-container p{
+    margin-top: 40px;
+}
+
+.last picture img{
+    height: 100vh;
+    background-size: 100%;
+    width: 100%;
+}
+
+.last h1{
+    background-color:#040814 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.last p{
+    background-color:#040814 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.last{
+  background-color: #040814;
+}
+
+.three-column{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.column-item picture img{
+    width: 430px;
+    height: 90px;
+}
+
+.column-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 305px;
+    height: 295px;
+}
+
+.target{
+    color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 28px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 24px;
+}
+
+.column-item p{
+    width: 495px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 24px;
+}
+
+.accordion-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6px 90px 6px 90px;
+
+}
+
+.accordion-btn{
+    color: white;
+    background-color: #13151d;
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 0 26px 0 0
+}
+
+.accordion-btn span{
+    padding: 0 26px 0 20px;
+    font-size: 20px;
+}
+
+.small{
+    color: #c0c0c0;
+    font-family: sans-serif;
+    font-size: 16px ;
+    margin-bottom: 40px;
+}
+
+.medium{
+    color: #c0c0c0;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 40px;
+}
+
+.four-column{
+    display:flex;
+    align-items: center;
+  
+}
+
+.four-column .column-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.four-column .column-items .device img{
+    width: 300px;
+    height: 150px;
+}
+
+footer{
+    background-color: #040814;
+    width: 100%;
+    height: 40vh;
+    color: #c0c0c0;
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .content-info .footer-logo img{
+    width: 100px;
+    height: 60px;
+    margin: 40px;
+}
+
+.footer .content-info{
+    color: #c0c0c0;
+}
+
+.footnote{
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+
+}
+
+#footer .content-info .done .link{
+    color: #c0c0c0;
+    padding: 20px;  
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+#footer .content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#footer .content-info .done{
+    display: flex;    
+}
