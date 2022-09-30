@@ -1,3 +1,2 @@
 # disney
-disney workshop
-https://mucahidertugrul.github.io/disney/
+disney clone link  https://mucahidertugrul.github.io/disney/
